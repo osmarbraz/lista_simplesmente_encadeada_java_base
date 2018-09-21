@@ -48,10 +48,10 @@ public class Lista {
     /**
      * Insere um nó no início da lista.
      *
-     * @param dado Um dado do novo nó da lista.
+     * @param valor Um novo valor de um nó a ser inserido na lista.
      * @return Verdadeiro se conseguiu incluir o nó no início da lista.
      */
-    public boolean inserirInicio(int dado) {
+    public boolean inserirInicio(int valor) {
        
         return true;
     }
@@ -59,11 +59,11 @@ public class Lista {
     /**
      * Insere um nó em uma posição especifica da lista.
      *
-     * @param dado Um dado do novo nó da lista.
+     * @param valor Um novo valor de um nó a ser inserido na lista.
      * @param k Posição a ser inserida o valor.
      * @return Verdadeiro ou falso se conseguiu incluir o novo valor.
      */
-    public boolean inserirPosicao(int dado, int k) {
+    public boolean inserirPosicao(int valor, int k) {
         
         return false;
     }
@@ -71,10 +71,10 @@ public class Lista {
     /**
      * Insere um nó no final da lista.
      *
-     * @param dado Um dado do novo nó da lista.
+     * @param valor Um novo valor de um nó a ser inserido na lista.
      * @return Verdadeiro se conseguiu incluir o nó no final da lista.
      */
-    public boolean inserirFim(int dado) {
+    public boolean inserirFim(int valor) {
         
        return false;
     }
@@ -113,11 +113,11 @@ public class Lista {
     /**
      * Altera o valor de um Nó da lista pela posição.
      *
-     * @param dado Um dado a ser atualizado na posição k da lista.
+     * @param valor Um dado a ser atualizado na posição k da lista.
      * @param k Posição do nó a ser alterado da lista.
      * @return Verdadeiro ou falso se alterou o valor da posição.
      */
-    public boolean alterarPosicao(int dado, int k) {
+    public boolean alterarPosicao(int valor, int k) {
         
         return false;
     }
@@ -188,7 +188,7 @@ public class Lista {
      *
      * @return A quantidade de nós da lista.
      */
-    public int getN() {
+    public int getQuantidade() {
         int cont = 0;
         //Verifica se a lista não esta vazia
         if (getInicio() != null) {
