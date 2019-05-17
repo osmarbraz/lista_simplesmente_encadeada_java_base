@@ -26,6 +26,7 @@ public class Principal {
         
         // Controla o menu da lista
         int opcao = -1;
+        
         while (opcao != 99) {
             opcao = Integer.parseInt(JOptionPane.showInputDialog("\t### Lista Simplesmente Encadeada ###\n"
                     + "Selecione a opção desejada:\n"
@@ -57,7 +58,7 @@ public class Principal {
                 }
                 case 2: {
                     //Le a posição a ser inserido o nó
-                    int k = Integer.parseInt(JOptionPane.showInputDialog("Digite a posição:"));
+                    int k = Integer.parseInt(JOptionPane.showInputDialog("Digite a posição a ser inserido:"));
                    //Preenche o valor do dado
                     int dado = leitura();                  
                     if (lista.inserirPosicao(dado, k) == true) {
@@ -96,7 +97,7 @@ public class Principal {
                 }
                 case 6: {
                     if (lista.excluirFim()) {
-                        JOptionPane.showMessageDialog(null, "O Nó do fim foi excluído com Sucesso!");
+                        JOptionPane.showMessageDialog(null, "Nó do fim foi excluído com Sucesso!");
                     } else {
                         JOptionPane.showMessageDialog(null, "Nó do fim não foi excluído!");
                     }
@@ -159,5 +160,5 @@ public class Principal {
                 }
             }//Fim switch   
         }//Fim while
-    }
-}
+    }//Fim main
+}//Fim Principal

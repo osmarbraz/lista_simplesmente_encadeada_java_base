@@ -6,7 +6,13 @@
  */
 public class No {
 
+    /**
+     * Dado a ser armazenado no nó.
+     */
     private int dado;
+    /**
+     * Dado a ser armazenado no nó.
+     */
     private No proximo;
 
     /**
