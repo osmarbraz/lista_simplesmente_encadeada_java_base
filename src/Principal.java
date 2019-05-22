@@ -20,14 +20,16 @@ public class Principal {
 
     public static void main(String[] args) {
         /**
-         * Declara e instancia a lista.
+         * Declara e instância a lista.
          */
         Lista lista = new Lista();
         
         // Controla o menu da lista
         int opcao = -1;
         
+        //Laço do menu de opções
         while (opcao != 99) {
+            //Monta o menu de opções
             opcao = Integer.parseInt(JOptionPane.showInputDialog("\t### Lista Simplesmente Encadeada ###\n"
                     + "Selecione a opção desejada:\n"
                     + " 1- Inserir Nó no início\n"

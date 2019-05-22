@@ -48,10 +48,10 @@ public class Lista {
     /**
      * Insere um nó no início da lista.
      *
-     * @param valor Um novo valor de um nó a ser inserido na lista.
+     * @param dado Um novo valor de um nó a ser inserido na lista.
      * @return Verdadeiro se conseguiu incluir o nó no início da lista.
      */
-    public boolean inserirInicio(int valor) {
+    public boolean inserirInicio(int dado) {
        
         return true;
     }
@@ -59,11 +59,11 @@ public class Lista {
     /**
      * Insere um nó em uma posição especifica da lista.
      *
-     * @param valor Um novo valor de um nó a ser inserido na lista.
+     * @param dado Um novo valor de um nó a ser inserido na lista.
      * @param k Posição a ser inserida o valor.
      * @return Verdadeiro ou falso se conseguiu incluir o novo valor.
      */
-    public boolean inserirPosicao(int valor, int k) {
+    public boolean inserirPosicao(int dado, int k) {
         
         return false;
     }
@@ -71,10 +71,10 @@ public class Lista {
     /**
      * Insere um nó no final da lista.
      *
-     * @param valor Um novo valor de um nó a ser inserido na lista.
+     * @param dado Um novo valor de um nó a ser inserido na lista.
      * @return Verdadeiro se conseguiu incluir o nó no final da lista.
      */
-    public boolean inserirFim(int valor) {
+    public boolean inserirFim(int dado) {
         
        return false;
     }
@@ -113,11 +113,11 @@ public class Lista {
     /**
      * Altera o valor de um Nó da lista pela posição.
      *
-     * @param valor Um dado a ser atualizado na posição k da lista.
+     * @param dado Um dado a ser atualizado na posição k da lista.
      * @param k Posição do nó a ser alterado da lista.
      * @return Verdadeiro ou falso se alterou o valor da posição.
      */
-    public boolean alterarPosicao(int valor, int k) {
+    public boolean alterarPosicao(int dado, int k) {
         
         return false;
     }
@@ -203,11 +203,11 @@ public class Lista {
     }
 
     /**
-     * Retorna se a lista esta vazia.
+     * Retorna se a lista está vazia.
      *
      * @return Verdadeiro ou falso se a lista está vazia.
      */
     public boolean estaVazia() {
         return getInicio() == null;
     }
-}
+}//Fim Lista
